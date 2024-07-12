@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Requisitos No Funcionales</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .content {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">Requisitos No Funcionales</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#seguridad">Seguridad</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#usabilidad">Usabilidad</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#accesibilidad">Accesibilidad</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#portabilidad">Portabilidad</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#tiempos-de-respuesta">Tiempos de respuesta</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#adaptabilidad">Adaptabilidad</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#confiabilidad">Confiabilidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="container content"><h1 class="text-center">Requisitos No Funcionales</h1>
+    <!-- Seguridad -->
+    <section id="seguridad" class="mb-5 m-5">
+      <h2 class="m-5">Seguridad</h2>
+      <p>La seguridad en el software es esencial para proteger los datos sensibles y garantizar que los sistemas no sean vulnerables a ataques. 
+        Esto incluye la implementación de medidas como la encriptación de datos, autenticación multifactor, y controles de acceso estrictos.
+         En nuestro proyecto, se prioriza la protección de la información del usuario y la prevención de accesos no autorizados, se condicionara 
+         el acesso, estara disponible solo para los usuarios registrados y los que se registren tendran acceso al servicio que se ofrecera,
+         asegurando así la integridad y confidencialidad de los datos.</p>
+      <img src="./Img/seguridad.png" class="img1 img-thumbnail" alt="Seguridad">
+    </section>
+
+    <!-- Usabilidad -->
+    <section id="usabilidad" class="mb-5 m-5">
+      <h2 class="m-5">Usabilidad</h2>
+      <p>La usabilidad se enfoca en la facilidad con la que los usuarios pueden interactuar con el sistema. 
+        Esto implica diseñar interfaces intuitivas, con una navegación clara y accesible, y proporcionar una 
+        experiencia de usuario fluida y satisfactoria. En nuestro desarrollo, se aplicarán principios de diseño centrado en el 
+        usuario para asegurar que el sistema sea fácil de aprender y utilizar, reduciendo al mínimo la curva de aprendizaje.</p>
+      <img src="./Img/Usabilidad.png" class="img1 img-thumbnail" alt="Usabilidad">
+    </section>
+
+    <!-- Accesibilidad -->
+    <section id="accesibilidad" class="mb-5 m-5">
+      <h2 class="m-5">Accesibilidad</h2>
+      <p>La accesibilidad garantiza que el software pueda ser utilizado por personas con diversas capacidades, 
+        incluyendo aquellas con discapacidades. Esto implica el uso de estándares como WCAG (Web Content Accessibility Guidelines) 
+        para diseñar interfaces que sean compatibles con tecnologías asistivas y proporcionar alternativas para contenido multimedia.
+        En nuestro proyecto, se asegurará que todas las funciones sean accesibles para todos los usuarios, sin importar sus limitaciones, al ser un asistente de voz este contara también con visualización de datos, los cuales podran ser ingresados en formato de voz y texto.</p>
+      <img src="./Img/Accesibilidad.png" class="img1 img-thumbnail" alt="Accesibilidad">
+    </section>
+
+    <!-- Portabilidad -->
+    <section id="portabilidad" class="mb-5 m-5">
+      <h2 class="m-5">Portabilidad</h2>
+      <p>La portabilidad se refiere a la capacidad del software para ser utilizado en diferentes entornos y 
+        dispositivos sin necesidad de realizar modificaciones significativas. Esto incluye la compatibilidad 
+        con múltiples sistemas operativos y plataformas. En el desarrollo de nuestro proyecto, se implementará un diseño responsivo y se 
+        utilizarán tecnologías que permitan una fácil migración y adaptación del software a diversos entornos.</p>
+      <img src="./Img/portabilidad.jpg" class="img1 img-thumbnail" alt="Portabilidad">
+    </section>
+
+    <!-- Tiempos de respuesta -->
+    <section id="tiempos-de-respuesta" class="mb-5 m-5">
+      <h2 class="m-5">Tiempos de respuesta</h2>
+      <p>Los tiempos de respuesta son críticos para garantizar una experiencia de usuario eficiente y agradable. 
+        Esto implica minimizar la latencia y asegurar que las operaciones se realicen de manera rápida y confiable. 
+        En nuestro proyecto, se optimizarán los procesos y se utilizara un servidor web de pago, este nos permitira 
+        acceder a excelentes tiempos de respuesta.</p>
+      <img src="./Img/Tiempos-de-respuesta.jpg" class="img1 img-thumbnail" alt="Tiempos de respuesta">
+    </section>
+
+    <!-- Adaptabilidad -->
+    <section id="adaptabilidad" class="mb-5 m-5">
+      <h2 class="m-5">Adaptabilidad</h2>
+      <p>La adaptabilidad es la capacidad del software para ajustarse a diferentes condiciones y requerimientos 
+        del entorno sin necesidad de reprogramación extensa. Esto incluye la flexibilidad para incorporar nuevas 
+        funcionalidades y ajustarse a cambios en la demanda del usuario. En nuestro desarrollo, se adoptarán arquitecturas modulares y se 
+        utilizarán patrones de diseño que permitan una fácil extensión y modificación del sistema, se utilizaran las buenas practicas del desarrollo de software.</p>
+      <div class="container-fluid bg-secondary"><img src="./Img/Adaptabilidad.png" class="img1 img-thumbnail" alt="Adaptabilidad"></div>
+    </section>
+
+    <!-- Confiabilidad -->
+    <section id="confiabilidad" class="mb-5 m-5">
+      <h2 class="m-5">Confiabilidad</h2>
+      <p>La confiabilidad se centra en la capacidad del software para desempeñarse consistentemente y 
+        sin fallos bajo condiciones específicas. Esto implica la implementación de pruebas exhaustivas, 
+        monitoreo continuo y la capacidad de recuperación ante fallos. En nuestro proyecto, se garantizará 
+        que el sistema opere de manera estable y predecible, minimizando el riesgo de errores y asegurando 
+        un alto nivel de disponibilidad y estabilidad.</p>
+      <img src="./Img/confiabilidad.png" class="img1 img-thumbnail" alt="Confiabilidad">
+    </section>
+  </div>
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
